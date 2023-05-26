@@ -33,12 +33,12 @@ As specified in the paper, all top-down methods were trained and evaluated using
 
 Listed below, are all the bottom-up models used in the paper, along with their specific implementations used for the paper and performance metrics in the **UCH-ThermalPose Set-B dataset**.
 
-| Model                      | Source code                                                     | AP        | AR        |
-| -------------------------- | --------------------------------------------------------------- | --------- | --------- |
-| CenterNet (HRNet backbone) | <https://github.com/jsmithdlc/Thermal-Human-Pose-Estimation> \* | 0.795     | **0.864** |
-| Bottom-Up HRNet            | <https://github.com/HRNet/HRNet-Bottom-Up-Pose-Estimation>      | 0.662     | 0.762     |
-| PoseAE                     | <https://github.com/princeton-vl/pose-ae-train>                 | 0.759     | 0.840     |
-| OpenPose                   | <https://github.com/CMU-Perceptual-Computing-Lab/openpose>      | **0.806** | 0.849     |
+| Model                      | Source code                                                 | AP        | AR        |
+| -------------------------- | ----------------------------------------------------------- | --------- | --------- |
+| CenterNet (HRNet backbone) | <https://github.com/jsmithdlc/CenterNet-ThermalPose.git> \* | 0.795     | **0.864** |
+| Bottom-Up HRNet            | <https://github.com/HRNet/HRNet-Bottom-Up-Pose-Estimation>  | 0.662     | 0.762     |
+| PoseAE                     | <https://github.com/princeton-vl/pose-ae-train>             | 0.759     | 0.840     |
+| OpenPose                   | <https://github.com/CMU-Perceptual-Computing-Lab/openpose>  | **0.806** | 0.849     |
 
 \* *CenterNet source code is a fork from the [original repository](https://github.com/xingyizhou/CenterNet.git) with changes to accomodate the HRNet backbone, freezing schemes, among other.*
 
