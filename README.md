@@ -1,5 +1,6 @@
 # Thermal-Human-Pose-Estimation
 
+
 This repository contains the code and dataset from the following paper:
 
 `J. Smith, P. Loncomilla and J. Ruiz-del-Solar, "Human Pose Estimation using Thermal Images," in IEEE Access, doi: 10.1109/ACCESS.2023.3264714.`
@@ -7,6 +8,10 @@ This repository contains the code and dataset from the following paper:
 <b> Note that the dataset is available for research purposes only. Using it requires a reference to this paper.</b>
 
 ![overall performance](figures/comparison.png)
+
+## Example Results
+
+<p align="center"> <img src='figures/sample1.png' align="center" height="230px"> <img src='figures/sample2.png' align="center" height="230px">  <img src='figures/sample3.png' align="center" height="230px"> <img src='figures/sample4.png' align="center" height="230px">                    <img src='figures/sample5.png' align="center" height="230px"> <img src='figures/sample6.png' align="center" height="230px">                    <img src='figures/sample7.png' align="center" height="230px"></p>
 
 Please be sure to provide the required references if using code or data from any project specified below.
 
